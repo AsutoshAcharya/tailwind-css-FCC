@@ -11,9 +11,18 @@ function App() {
       <div className="font-bold text-white bg-red-300 p-4 w-1/2 mt-4 mx-auto">
         <p className="mx-auto w-fit -m-4">Sizes and spaces</p>
       </div>
-      <div className="w-full flex mt-3.5">
-        <div className="w-1/2 h-16 bg-cyan-400"></div>
-        <div className="w-1/2 h-16 bg-red-950"></div>
+      <div className="w-full flex flex-col mt-3.5 md:flex-row flex-wrap">
+        <div className="flex-1 h-16 bg-cyan-400">display</div>
+        <div className="flex-1 h-16 bg-red-950">flex</div>
+      </div>
+
+      <div className="w-full flex items-baseline flex-row gap-5 text-green-300 justify-between">
+        <div className="flex-1">EL1</div>
+        <div className="flex-1">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil,
+          suscipit consectetur! Voluptatem optio, perspiciatis dicta molestiae
+        </div>
+        <div className="flex-1">EL3</div>
       </div>
     </Fragment>
   );
