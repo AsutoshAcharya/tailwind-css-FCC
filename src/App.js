@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Gridlayout from "./Gridlayout";
+import Layouts from "./Layouts";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
         </div>
         <div className="flex-1">EL3</div>
       </div>
-      <Gridlayout />
+      {/* <Gridlayout />*/}
+      <Layouts />
     </div>
   );
 }
